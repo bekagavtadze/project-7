@@ -1,0 +1,141 @@
+@media screen and (max-width: 925px) {
+    main .andy{
+        font-size: 60px;
+    }
+    main .beka1{
+        font-size: 10px;
+    }
+    main h5{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    main .andy{
+        font-size: 40px;
+        top: 20%;
+        left: 50%;
+    }
+    main .beka1{
+        top: 35%;
+        left: 50%;
+    }
+    main h5{
+        top: 45%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    main .andy{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .book aside{ width: 100%;}
+}
+
+@media screen and (max-width: 1050px) {
+    .book section aside{
+        grid-template-columns: 1fr 1fr;
+    }
+    .book section aside .story{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .book section aside{
+        grid-template-columns: 1fr;
+    }
+    .book section aside .dream{
+        margin-left: 15%;
+    }
+    
+    .book section aside .rage{
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+    .book section aside .story{
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .book section aside .dream{
+        margin-right: 30%;
+    }
+    
+    .book section aside .rage{
+        margin-right: 30%;
+    }
+    .book section aside .story{
+        margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .book section aside .dream{
+        margin-right: 70%;
+    }
+    
+    .book section aside .rage{
+        margin-right: 70%;
+    }
+    .book section aside .story{
+        margin-right: 70%;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .king section aside{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .king section{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .bio section aside{
+        grid-template-columns: 1fr 1fr;
+    }
+    .bio section aside .ps p{
+        margin-top: 10%;
+        margin-left: 70%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .bio section aside{
+        grid-template-columns: 1fr;
+    }
+    .bio section aside div img{
+        margin-left: 30%;
+    }
+    .bio section aside .port p{
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+    .bio section aside .ps p{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .bio section aside div img{
+        width: 200px;
+        height: 150px;
+    }
+    .bio section aside .port p{
+        width: 200px;
+    }
+    .bio section aside .ps p{
+        width: 200px;
+    }
+}
